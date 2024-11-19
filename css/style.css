@@ -12,6 +12,8 @@
     vertical-align: middle;
     padding-left: 20px;
     padding-top: 10px;
+    padding-bottom: 10px;
+    
 
 }
 
@@ -23,14 +25,16 @@
 
 /* Proprietà corpo principale */
 main{
-    background-color: grey;   /* #F6F9FA */
+    background-color: #F6F9FA;
     padding-top: 10px;
+    padding-bottom: 1px;
 }
 
 .container1{
     width: 75%;
-    margin: 40px auto;
+    margin: 40px auto 10px;
     background-color: white;
+    border-radius: 20px;
 }
 
 .container2{
@@ -47,14 +51,15 @@ main{
 
 .btn {
     display: inline-block;
-    height: 36px;
+    height: 32px;
     width: auto;
     font-size: 12px;
     text-align: center;
     vertical-align: middle;
-    padding: 12px;
+    padding: 8px;
     margin: 4px;
     border-radius: 5px;
+    border: 1px solid;
 }
 
 .blue-btn{
@@ -69,8 +74,75 @@ main{
     border-color: #D1D4D2;
 }
 
+/* Proprietà liste */
+
+.list{
+    padding-bottom: 40px;
+}
+
 .title{
     padding-bottom: 8px;
     padding-top: 16px;
 }
+
+.checkbox{
+    font-size: 12px;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.true{
+    color: green;
+    border-color: green;
+}
+
+.false{
+    color: red;
+    border-color: red;
+}
+
+.list-item{
+    padding-bottom: 16px;
+}
+
+.colored-box {
+    display: inline-block;
+    width: auto;
+    height: 20px;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.editorial{
+    background-color: #45AFED;
+}
+
+.q1-goals{
+    background-color: #A073E1;
+}
+
+.recruiting{
+    background-color: #67C2AC;
+}
+
+.mobile{
+    background-color: #F09F33;
+}
+
+.website{
+    background-color: #D4689C;
+}
+
+.sales{
+    background-color: #AFC728;
+}
+
+
 

@@ -20,35 +20,63 @@
         <div class="container1">
             <div class="container2">
                 <!-- Tasti -->
+                 <!-- Non sono riuscito a formattarli bene usando il tag <button> -->
                 <section class="buttons">
                     <span class="btn blue-btn"> <strong> Add task </strong></span>
                     <span class="btn white-btn"> <strong> Add section </strong> </span>
                 </section>
                 <!-- Elenchi con spunte e dettagli -->
-                <article>
+                <article class="list">
                     <section>
+                        <!-- Per i titoli non ho trovato il giusto entity code -->
                         <h3 class="title"> &#10095; New Task </h3>
 
-                        <p> <span> &#10003; </span> Quarterly Newsletter </p>
+                        <p class="list-item">
+                            <span class="checkbox true"> &#10003; </span> Quarterly Newsletter 
+                            <span class="colored-box editorial"> Editorial </span>
+                        </p>
                     </section>
 
                     <section>
                         <h3 class="title"> &#10095; Today </h3>
 
-                        <p> <span> &#10003; </span> Recruiting blog post </p>
-                        <p> <span> &#10003; </span> Mobile app launch </p>
-                        <p> <span> &#10005; </span> Interview John H. </p>
-                        <p> <span> &#10003; </span> Summit update to mobile storefronts </p>
+                        <p class="list-item">
+                            <span class="checkbox true"> &#10003; </span> Recruiting blog post 
+                            <span class="colored-box editorial"> Editorial </span>
+                        </p>
+                        <p class="list-item">
+                            <span class="checkbox true"> &#10003; </span> Mobile app launch 
+                            <span class="colored-box q1-goals"> Q1 Goals</span>
+                        </p>
+                        <p class="list-item">
+                            <span class="checkbox false"> &#10005; </span> Interview John H. 
+                            <span class="colored-box recruiting"> Recruiting </span>
+                        </p>
+                        <p class="list-item">
+                            <span class="checkbox true"> &#10003; </span> Summit update to mobile storefronts 
+                            <span class="colored-box mobile"> Mobile </span>
+                        </p>
                     </section>
 
 
                     <section>
                         <h3 class="title"> &#10095; Upcoming </h3>
 
-                        <p> <span> &#10005; </span> Schedule meeting with Alex </p>
-                        <p> <span> &#10003; </span> Homepage refresh </p>
-                        <p> <span> &#10003; </span> Onboard new Sales team members </p>
-                        <p> <span> &#10003; </span> Review editorial calendar </p>
+                        <p class="list-item">
+                            <span class="checkbox false"> &#10005; </span> Schedule meeting with Alex 
+                        </p>
+                        <p class="list-item">
+                            <span class="checkbox true"> &#10003; </span> Homepage refresh 
+                            <span class="colored-box website"> Website </span>
+                        </p>
+                        <p class="list-item">
+                            <span class="checkbox true"> &#10003; </span> Onboard new Sales team members 
+                            <span class="colored-box sales"> Sales </span>
+                        </p>
+                        <p class="list-item">
+                            <span class="checkbox true"> &#10003; </span> Review editorial calendar 
+                            <span class="colored-box editorial"> Editorial </span>
+                        </p>
                     </section>
 
                 </article>
