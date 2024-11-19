@@ -40,6 +40,11 @@ main{
 
 /* Proprietà bottoni */
 
+.buttons {
+    padding-top: 10px;
+    margin-bottom: 36px;
+}
+
 .btn {
     display: inline-block;
     height: 36px;
@@ -64,5 +69,8 @@ main{
     border-color: #D1D4D2;
 }
 
-
+.title{
+    padding-bottom: 8px;
+    padding-top: 16px;
+}
 
