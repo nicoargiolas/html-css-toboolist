@@ -1,9 +1,12 @@
+/* Reset pagina */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Proprietà intestazione */
 #logo {
     line-height: 100%;
     vertical-align: middle;
@@ -16,5 +19,50 @@
     text-align: center;
     vertical-align: middle;
     font-size: 34px;
-    font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Proprietà corpo principale */
+main{
+    background-color: grey;   /* #F6F9FA */
+    padding-top: 10px;
+}
+
+.container1{
+    width: 75%;
+    margin: 40px auto;
+    background-color: white;
+}
+
+.container2{
+    width: 85%;
+    margin: 10px auto;
+}
+
+/* Proprietà bottoni */
+
+.btn {
+    display: inline-block;
+    height: 36px;
+    width: auto;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px;
+    margin: 4px;
+    border-radius: 5px;
+}
+
+.blue-btn{
+    background-color: #45AFED;
+    color: white;
+    border-color: white;
+}
+
+.white-btn{
+    background-color: white;
+    color: #D1D4D2;
+    border-color: #D1D4D2;
+}
+
+
+
